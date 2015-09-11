@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Raami Sharif</title>
+		<link rel="stylesheet" type="text/css" href="styling.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src = "twitterAPI.js"> </script>
+	</head>
+	<body>
+	<div id = 'container'>
+		<div id = "header">
+			
+		</div>
+		<div id = "content"> 
+			<div id = "content-left">
+				<h1>
+					About Me
+				</h1> 
+
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello! My name is Raami Sharif and I am a student a Pace University. Since I was very young, I have always been so fascinated with technology. 
+					I have always been curious about how different things work like computers. Since then, I decided I would study computer science which I have been doing for the past 5 years and I love it. On this website I have posted my resume, as well as some of the projects I have done over the years. Feel free to check them out, as well as my Github. 
+
+					<br/> 
+					<br/>
+					Yours truly, 
+					<br/>
+					Raami Sharif
+				</p>
+				<br/><br/>
+			</div>
+			<div id = "content-right">
+				<a class="twitter-timeline" href="https://twitter.com/RaamiSharif" width = "400px" height = "600px" data-widget-id="635981615039184896">Tweets by @RaamiSharif</a> 
+			</div>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<div id = "footer"> </div>
+		</div>
+		<script type="text/javascript">
+			$('#header').load('webheader.html');
+			$('#footer').load('webfooter.html');
+
+			var lastScrollTop = 0;
+			$(window).scroll(function(event){
+   				var st = $(this).scrollTop();
+   				if (st > lastScrollTop){
+       				// downscroll code
+       				if(st > 0){
+       					$('#header').slideUp();
+       				}
+   				} else {
+      				$('#header').slideDown();
+   				}
+   				lastScrollTop = st;
+			});
+
+
+
+		</script>
+	</body>
+</html>
