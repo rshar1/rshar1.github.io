@@ -2,7 +2,7 @@
 #home{
 	background-image: url("images/comp.jpg");
 	background-attachment: fixed;
-	background-size: 100%;
+	background-size: cover;
 	padding-top: 60px;
 }
 #home h1{
@@ -62,7 +62,7 @@ nav .container:hover{
 #atoP{
 	background-image: url("images/compSci.png");
 	background-attachment: fixed;
-	background-size: 100%;
+	background-size: cover;
 	min-height: 500px;
 }
 #projects{
@@ -108,7 +108,7 @@ nav .container:hover{
 	background-image: url("images/keyboard.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	min-height: 500px;
 }
 
@@ -127,7 +127,7 @@ nav .container:hover{
 
 #contact{
 	background-image: url('images/sunset.jpg');
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: -20%;
 	min-height: 500px;
