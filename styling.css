@@ -1,9 +1,11 @@
 
+
 #home{
 	background-image: url("images/comp.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	padding-top: 60px;
+	background-repeat: no-repeat;
 }
 #home h1{
 	font-size: 50px;
@@ -28,20 +30,20 @@
 }
 
 #about h1{
-	font-size: 5em;
-	width: 40%;
+	font-size: 40px;
 }
 
 
 #about p{
-	font-size: 2em;
-	width: 60%;
+	font-size: 22px;
+	
 	display: inline-block;
 }
 
 #about img{
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 5%;
 }
 .container{
 	width: 100%;
@@ -64,6 +66,7 @@ nav .container:hover{
 	background-attachment: fixed;
 	background-size: cover;
 	min-height: 500px;
+	background-repeat: no-repeat;
 }
 #projects{
 	background-color: #bbbbbb;
@@ -73,7 +76,7 @@ nav .container:hover{
 	text-align: center;
 }
 #projects>div{
-	width: 32%;
+	width: 31%;
 	display: inline-block;
 	margin-right: 1%;
 	vertical-align: top;
@@ -87,12 +90,12 @@ nav .container:hover{
 
 #projects a{
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 2vw;
 	color: black;
 }
 
 #projects a p{
-	font-size: 18px;
+	font-size: 1vw;
 }
 
 #projects div div{
@@ -130,14 +133,19 @@ nav .container:hover{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0% 50%;
-	min-height: 500px;
+	min-height: 51vw;
 }
 
 #contact a{
-	margin-left: 20%;
-	margin-top: 5%;
+	margin-left: 15%;
+	margin-top: 10%;
 	display: inline-block;
 	vertical-align: top;
+	width: 20%;
+}
+
+#contact a:nth-child(2){
+	margin-left: 22%;
 }
 
 #contact a:hover{
@@ -148,7 +156,14 @@ nav .container:hover{
 	text-align: center;
 }
 
-
+@media screen and (max-device-width: 480px){
+	#projects a{
+	font-size: 4vw;
+	}
+	#projects a p{
+	font-size: 3vw;
+	}
+}
 
 
 

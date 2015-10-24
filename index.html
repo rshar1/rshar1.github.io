@@ -54,15 +54,15 @@
     <div class = "container" id = "home">
       <div>
         <h1> Raami Sharif </h1>
-        <h2> -Software Engineer </h2>
+        <h2> -Computer Science Student </h2>
       </div>
     </div>
     
     <div class = "container" id = "about">
       <h1> About me </h1>
       <br/>
-      <p> Hi there! My name is Raami Sharif. I'm a computer science Major at Pace University in Manhattan, NY. I love computer science and technology in general. I'm always looking to learn new things. I see a world in which computers are playing a more and more important role and I would want nothing more than to be a part of it.</p>
-      <img src = "images/manhattan.jpg" alt = "Manhattan Skyline" width="30%" />
+      <p> <img src = "images/manhattan.jpg" alt = "Manhattan Skyline" width="30%" align="right" />Hi there! My name is Raami Sharif. I'm a computer science Major at Pace University in Manhattan, NY. I love computer science and technology in general. I'm always looking to learn new things. I see a world in which computers are playing an increasingly important role and I would want nothing more than to be a part of it.
+       </p>
     </div>
 
     <div class = "container" id = "atoP"></div>
@@ -90,8 +90,8 @@
     	<h1> Contact Me </h1>
 
     	
-      <a href = "https://github.com/rshar1"> <span style = "font-size: 10em" class="mega-octicon octicon-mark-github"></span> </a>
-      <a href = "mailto: raamisharif@gmail.com"><img width = "100px" src = "images/email.png" alt = "email"/></a>
+      <a href = "https://github.com/rshar1"> <span style = "font-size: 20vw" class="mega-octicon octicon-mark-github"></span> </a>
+      <a href = "mailto: raamisharif@gmail.com"><img width = "100%" src = "images/email.png" alt = "email"/></a>
       
     </div>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -99,6 +99,10 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $("#home").height($(window).height() - 50);
+        $(window).resize(function(){ 
+          console.log("hello");
+          $("#home").height($(window).height() - 50);
+        });
       })
     </script>
   </body>
