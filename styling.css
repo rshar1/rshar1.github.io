@@ -6,6 +6,7 @@
 	background-size: cover;
 	padding-top: 60px;
 	background-repeat: no-repeat;
+	background-position: center top;
 }
 #home h1{
 	font-size: 50px;
@@ -67,6 +68,7 @@ nav .container:hover{
 	background-size: cover;
 	min-height: 500px;
 	background-repeat: no-repeat;
+	background-position: center top;
 }
 #projects{
 	background-color: #bbbbbb;
@@ -113,6 +115,7 @@ nav .container:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 500px;
+	background-position: center top;
 }
 
 #resume{
@@ -156,13 +159,42 @@ nav .container:hover{
 	text-align: center;
 }
 
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width: 1050px){
 	#projects a{
 	font-size: 4vw;
 	}
 	#projects a p{
 	font-size: 3vw;
 	}
+
+	#home{
+		background-size: 100% 100%;
+		background-attachment: initial;
+		
+	}
+
+	#atoP{
+		background-size: 100% 100%;
+		background-attachment: initial;
+		background-position: center top;
+	}
+
+	#ptor{
+		background-size: 100% 100%;
+		background-attachment: initial;
+		background-position: center top;
+	}
+@media screen and (max-device-width: 500px){
+	#home{
+		background-size: auto 100%;
+	}
+	#atoP{
+		background-size: auto 100%;
+	}
+	#ptor{
+		background-size: auto 100%;
+	}
+}
 }
 
 
