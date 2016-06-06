@@ -140,7 +140,7 @@ nav .container:hover{
 }
 
 #contact a{
-	margin-left: 15%;
+	margin-left: 5%;
 	margin-top: 10%;
 	display: inline-block;
 	vertical-align: top;
@@ -148,7 +148,7 @@ nav .container:hover{
 }
 
 #contact a:nth-child(2){
-	margin-left: 22%;
+	margin-left: 15%;
 }
 
 #contact a:hover{
