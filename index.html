@@ -33,6 +33,8 @@
 	</script>
 
   </head>
+
+
   <body>
     <nav style = "background-color: rgba(0,0,0,0.2); border: none" class="navbar navbar-default navbar-fixed-top">
 
@@ -44,26 +46,21 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-
-
-
-
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-    <div class="container">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class = "anchorLink">Home</a></li>
-        <li><a href="#about" class = "anchorLink">About</a></li>
-        <li><a href="#projects" class = "anchorLink">Projects</a></li>
-        <li><a href="#resume" class = "anchorLink">Resume</a></li>
-        <li><a href="#contact" class = "anchorLink">Contact</a></li>
-      </ul>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="container">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home" class = "anchorLink">Home</a></li>
+              <li><a href="#about" class = "anchorLink">About</a></li>
+              <li><a href="#projects" class = "anchorLink">Projects</a></li>
+              <li><a href="#resume" class = "anchorLink">Resume</a></li>
+              <li><a href="#contact" class = "anchorLink">Contact</a></li>
+            </ul>
+            </div>
       </div>
-</div>
 
     </nav>
 
-    <div class = "container" id = "home">
+    <div class = "container slidingbgImage" id = "home">
       <div>
         <h1> Raami Sharif </h1>
         <h2> -Computer Science Student </h2>
@@ -73,36 +70,47 @@
     <div class = "container" id = "about">
       <h1> About me </h1>
       <br/>
-      <p> <img src = "images/manhattan.jpg" alt = "Manhattan Skyline" width="30%" align="right" />Hi there! My name is Raami Sharif. I'm a computer science Major at Pace University in Manhattan, NY. I love playing around with computers and always strive to solve challenging problems. In my spare time, I enjoy swimming, and reading online about new technologies. 
+      <p> <img src = "images/manhattan.jpg" alt = "Manhattan Skyline" width="30%" align="right" />
+        
+        My name is Raami Sharif and I'm a Computer Science major at Pace University. 
+        I've had a strong interest in technology since elementary school, and always knew I would want to pursue a career in the tech industry. 
+        I started programming since my freshman year in high school, and since then, my passion for learning has not diminished whatsoever.
+        In my spare time, I enjoy swimming, and reading about technological advancements. More recently, I have been spending time on <a href = "https://codefights.com/">codefights.com</a> solving challenges and interacting with the community.
+        
        </p>
     </div>
 
-    <div class = "container" id = "atoP"></div>
+    <div class = "container slidingbgImage" id = "atoP"></div>
     <div class = "container" id = "projects">
 
       <h1> Projects </h1>
 
       <div id = "left">
         <div style = "background-color:green">  <a href = "http://rshar1.github.io/Spidertime/"> <img src = "images/spidertime.jpg"/> <br/> Spider Time  <p> Play as a spider and survive by eating other insects. Beware of the red insects. Created using the TreSensa Game Engine</p> </a> </div>
+
+        <div style = "background-color:rgb(89, 123, 126)">  <a href = "https://github.com/rshar1/codeu_project_2017"> <img src = "images/google.png"/> <br/> Google CodeU Participant  <p> In 2017, I participated in Google CodeU, where I worked with two peers to improve a chat application. Added features included: GUI, real-time messages, sentiment analysis, and persistency.  </p> </a> </div>
+
       </div>
 
       <div id = "mid">
-        <div style = "background-color:orange"> <a href = "http://online.baysidehistorical.org/tour/"> <img src = "images/vtourPic.jpg"/> <br/> Virtual Tour  <p> Enjoy a virtual tour of the Bayside Historical Society. Created using an HTML canvas, along with JavaScript </p></a> </div>
+        <div style = "background-color:orange"> <a href = ""> <img src = "images/vtourPic.jpg"/> <br/> Virtual Tour  <p> Enjoy a virtual tour of the Bayside Historical Society. Created using an HTML canvas, along with JavaScript </p></a> </div>
 
       </div>
 
       <div  id = "right">
-        <div style = "background-color: yellow"> <a href = "http://online.baysidehistorical.org/bob/"> <img src = "images/bobimg.jpg"/> <br/> Businesses of Bayside <p> An online exhibit of some of the Businesses in Bayside </p></a> </div>
+        <div style = "background-color: yellow"> <a href = ""> <img src = "images/bobimg.jpg"/> <br/> Businesses of Bayside <p> An online exhibit of some of the Businesses in Bayside </p></a> </div>
       </div>
 
-
     </div>
-    <div class = "container" id = "ptor"></div>
+
+    <div class = "container slidingbgImage" id = "ptor"></div>
+
     <div class = "container" id = "resume">
       <h1> My Resume </h1>
       <p>  <a href = "myResume/resume.pdf" target="_blank"> Click here </a> to view a pdf of my resume. Additionally, a lot of my projects can also be found on my <a href = "https://github.com/rshar1" target = "_blank"> Github </a>. <br/>
       </p>
     </div>
+
     <div class = "container" id = "contact">
     	<h1> Contact Me </h1>
 
@@ -113,6 +121,8 @@
       <a href = "https://www.linkedin.com/in/raami-sharif-444a20108"> <img width = "100%" src = "images/linkedIn.png"/> </a>
       
     </div>
+
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
@@ -123,5 +133,7 @@
         });
       })
     </script>
+
+    
   </body>
 </html>
