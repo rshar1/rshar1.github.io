@@ -25,20 +25,6 @@
 
 #about{
 	background-color: #aaaaaa;
-	padding: 3%;
-}
-
-/*** NAVBAR ***/
-
-nav .container-fluid:hover{
-	background-color: rgb(0,0,0);
-	border-bottom: 1px solid #555555;
-}
-
-.navbar .nav > li > a:hover {
-    color:  #ffffff;
-    background-color: rgba(100,100,100,0.5);
-
 }
 
 /* About --> Projects Image */
@@ -58,13 +44,12 @@ nav .container-fluid:hover{
 	color: black;
 }
 
-#projects div div{
+#projects div div div{
 	padding: 5%;
-	border-radius: 5%;
 	margin-bottom: 10px;
 }
 
-#projects div div:hover{
+#projects div div div:hover{
 	box-shadow:10px 10px 50px 20px #cccccc inset;
 }
 

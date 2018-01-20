@@ -1,130 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Raami Sharif</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link href = "styling.css" rel = "stylesheet">
     <link rel="stylesheet" href="octicons/octicons.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+        ga('create', 'UA-87283173-1', 'auto');
+        ga('send', 'pageview');
+    
+      </script>
+
+    <script>
+      var shiftWindow = function() { scrollBy(0, -50) };
+      window.addEventListener("hashchange", shiftWindow);
+      function load() { if (window.location.hash) shiftWindow(); }
+    </script>
+
+    <title>Raami Sharif</title>
+  </head onload=load()>
+  
+  <body>
+      <nav class = "navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="" anchorLink = "#home" class = "anchorLink nav-link">Home</a></li>
+              <li class="nav-item"><a href="" anchorLink = "#about" class = "anchorLink nav-link">About</a></li>
+              <li class="nav-item"><a href="" anchorLink = "#projects" class = "anchorLink nav-link">Projects</a></li>
+              <li class="nav-item"><a href="" anchorLink = "#resume" class = "anchorLink nav-link">Resume</a></li>
+              <li class="nav-item"><a href="" anchorLink = "#contact" class = "anchorLink nav-link">Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+    
+        <div class = "container-fluid sliding-background-Image" id = "home">
+          <div class="text-right">
+            <h1> Raami Sharif </h1>
+            <h2> -Computer Science Student </h2>
+          </div>
+        </div>
+        
+        <div class = "container-fluid text-center p-5" id = "about">
+          <h1> About me </h1>
+    
+          <p class ="lead text-justify" > 
+            My name is Raami Sharif and I'm a Computer Science major at Pace University. 
+            I've had a strong interest in technology since elementary school, and always knew I would want to pursue a career in the tech industry. 
+            I started programming since my freshman year in high school, and since then, my passion for learning has not diminished whatsoever.
+            In my spare time, I enjoy swimming, and reading about technological advancements. More recently, I have been spending time on <a href = "https://codefights.com/">codefights.com</a> solving challenges and interacting with the community.
+            
+           </p>
+    
+           
+        </div>
+    
+        <div class = "container-fluid sliding-background-Image" id = "atoP"></div>
+    
+        <div class = "container-fluid text-center py-3" id = "projects">
+    
+          <h1> Projects </h1>
+
+          <div class ="container-fluid row">
+          <div class = "col-md-4 col-sm-12">
+            <div class = "rounded" style = "background-color:green">  <a href = "http://rshar1.github.io/Spidertime/"> <img class ="img-fluid center-block" src = "images/spidertime.jpg"/> <h2> Spider Time </h2> <p> Play as a spider and survive by eating other insects. Beware of the red insects. Created using the TreSensa Game Engine</p> </a> </div>
+    
+            <div class = "rounded" style = "background-color:rgb(89, 123, 126)">  <a href = "https://github.com/rshar1/codeu_project_2017"> <img class ="img-fluid center-block" src = "images/google.png"/> <h2> Google CodeU Participant </h2> <p> In 2017, I participated in Google CodeU, where I worked with two peers to improve a chat application. Added features included: GUI, real-time messages, sentiment analysis, and persistency.  </p> </a> </div>
+    
+          </div>
+    
+          <div class = "col-md-4 col-sm-12">
+            <div class = "rounded" style = "background-color:orange"> <a href = ""> <img class ="img-fluid center-block" src = "images/vtourPic.jpg"/>  <h2> Virtual Tour </h2> <p> Enjoy a virtual tour of the Bayside Historical Society. Created using an HTML canvas, along with JavaScript </p></a> </div>
+    
+          </div>
+    
+          <div class = "col-md-4 col-sm-12">
+            <div class = "rounded" style = "background-color: yellow"> <a href = ""> <img class ="img-fluid center-block" src = "images/bobimg.jpg"/> <h2> Businesses of Bayside </h2> <p> An online exhibit of some of the Businesses in Bayside </p></a> </div>
+          </div>
+        </div>
+        </div>
+    
+        <div class = "container-fluid sliding-background-Image" id = "ptor"></div>
+    
+        <div class = "container-fluid text-center p-1" id = "resume">
+          <h1> My Resume </h1>
+          <p class = "lead">  <a href = "myResume/resume.pdf" target="_blank"> Click here </a> to view a pdf of my resume. Additionally, a lot of my projects can also be found on my <a href = "https://github.com/rshar1" target = "_blank"> Github </a>.
+          </p>
+        </div>
+    
+        <div class = "container-fluid" id = "contact">
+
+          <h1 class = "text-center"> Contact Me </h1>
+    
+          <a href = "mailto: raamisharif@gmail.com"><img width = "100%" src = "images/email.png" alt = "email"/></a>
+          <a href = "https://github.com/rshar1"> <span style = "font-size: 20vw" class="mega-octicon octicon-mark-github"></span> </a>
+          <a href = "https://www.linkedin.com/in/raami-sharif-444a20108"> <img width = "100%" src = "images/linkedIn.png"/> </a>
+          
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script src= "jquery.anchor.js"></script>
 
-	<script>
-  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
- 	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
- 	 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  	ga('create', 'UA-87283173-1', 'auto');
-  	ga('send', 'pageview');
-
-	</script>
-
-  </head>
-
-
-  <body>
-    <nav style = "background-color: rgba(0,0,0,0.2); border: none" class="navbar navbar-default navbar-fixed-top">
-
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <div class="container-fluid">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#home" class = "anchorLink">Home</a></li>
-              <li><a href="#about" class = "anchorLink">About</a></li>
-              <li><a href="#projects" class = "anchorLink">Projects</a></li>
-              <li><a href="#resume" class = "anchorLink">Resume</a></li>
-              <li><a href="#contact" class = "anchorLink">Contact</a></li>
-            </ul>
-            </div>
-      </div>
-
-    </nav>
-
-    <div class = "container-fluid sliding-background-Image" id = "home">
-      <div class="text-right">
-        <h1> Raami Sharif </h1>
-        <h2> -Computer Science Student </h2>
-      </div>
-    </div>
-    
-    <div class = "container-fluid text-center" id = "about">
-      <h1> About me </h1>
-
-      <p class ="lead text-justify" > 
-        My name is Raami Sharif and I'm a Computer Science major at Pace University. 
-        I've had a strong interest in technology since elementary school, and always knew I would want to pursue a career in the tech industry. 
-        I started programming since my freshman year in high school, and since then, my passion for learning has not diminished whatsoever.
-        In my spare time, I enjoy swimming, and reading about technological advancements. More recently, I have been spending time on <a href = "https://codefights.com/">codefights.com</a> solving challenges and interacting with the community.
-        
-       </p>
-
-       
-    </div>
-
-    <div class = "container-fluid sliding-background-Image" id = "atoP"></div>
-
-    <div class = "container-fluid text-center" id = "projects">
-
-      <h1> Projects </h1>
-
-      <div class = "col-md-4">
-        <div style = "background-color:green">  <a href = "http://rshar1.github.io/Spidertime/"> <img class ="img-responsive center-block" src = "images/spidertime.jpg"/> <h2> Spider Time </h2> <p> Play as a spider and survive by eating other insects. Beware of the red insects. Created using the TreSensa Game Engine</p> </a> </div>
-
-        <div style = "background-color:rgb(89, 123, 126)">  <a href = "https://github.com/rshar1/codeu_project_2017"> <img class ="img-responsive center-block" src = "images/google.png"/> <h2> Google CodeU Participant </h2> <p> In 2017, I participated in Google CodeU, where I worked with two peers to improve a chat application. Added features included: GUI, real-time messages, sentiment analysis, and persistency.  </p> </a> </div>
-
-      </div>
-
-      <div class = "col-md-4 text-center">
-        <div style = "background-color:orange"> <a href = ""> <img class ="img-responsive center-block" src = "images/vtourPic.jpg"/>  <h2> Virtual Tour </h2> <p> Enjoy a virtual tour of the Bayside Historical Society. Created using an HTML canvas, along with JavaScript </p></a> </div>
-
-      </div>
-
-      <div class = "col-md-4 text-center">
-        <div style = "background-color: yellow"> <a href = ""> <img class ="img-responsive center-block" src = "images/bobimg.jpg"/> <h2> Businesses of Bayside </h2> <p> An online exhibit of some of the Businesses in Bayside </p></a> </div>
-      </div>
-
-    </div>
-
-    <div class = "container-fluid sliding-background-Image" id = "ptor"></div>
-
-    <div class = "container-fluid text-center" id = "resume">
-      <h1> My Resume </h1>
-      <p class = "lead">  <a href = "myResume/resume.pdf" target="_blank"> Click here </a> to view a pdf of my resume. Additionally, a lot of my projects can also be found on my <a href = "https://github.com/rshar1" target = "_blank"> Github </a>. <br/>
-      </p>
-    </div>
-
-    <div class = "container-fluid" id = "contact">
-    	<h1 class = "text-center"> Contact Me </h1>
-
-    	<a href = "mailto: raamisharif@gmail.com"><img width = "100%" src = "images/email.png" alt = "email"/></a>
-      <a href = "https://github.com/rshar1"> <span style = "font-size: 20vw" class="mega-octicon octicon-mark-github"></span> </a>
-      <a href = "https://www.linkedin.com/in/raami-sharif-444a20108"> <img width = "100%" src = "images/linkedIn.png"/> </a>
-      
-    </div>
-
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         $("#home").height($(window).height() - 50);
@@ -133,7 +130,5 @@
         });
       })
     </script>
-
-    
   </body>
 </html>
