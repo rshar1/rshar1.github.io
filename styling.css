@@ -9,32 +9,21 @@
 
 #home{
 	background-image: url("images/comp.jpg");
-	padding-top: 60px;
+	padding-top: 70px;
 }
 
 #home h1{
-	margin-right: 10%;
 	color: #aaaaaa;
-}
-
-#home h2{
-	margin-right: 5%;
 }
 
 /*** ABOUT ***/
 
 #about{
-	background-color: #aaaaaa;
-}
-
-/* About --> Projects Image */
-#atoP{
-	background-image: url("images/compSci.png");
-	min-height: 500px;
+	background-color: #f1f1f1;
 }
 
 #projects{
-	background-color: #bbbbbb;
+	background-color: #e4e4e4;
 }
 
 /* Three Columns */
@@ -42,11 +31,6 @@
 #projects a {
 	text-decoration: none;
 	color: black;
-}
-
-#projects div div div{
-	padding: 5%;
-	margin-bottom: 10px;
 }
 
 #projects div div div:hover{
