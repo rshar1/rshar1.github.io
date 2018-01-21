@@ -68,6 +68,7 @@
 }
 
 .octicon {
+	width: 0.25em; 
 	font-size:128px;
 	transition:0.5s color ease-in;
 	-webkit-transition:0.5s color ease-in 0;
@@ -81,13 +82,11 @@
 }
 
 div .octicon {
-	width: 5%; 
 	color:#222;
 	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0,0,0,0.75)));
 }
 
 nav .octicon {
-	width: 0.25em;
 	color:rgb(255, 255, 255);
 	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.75)));
 }
