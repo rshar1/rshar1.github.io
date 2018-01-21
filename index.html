@@ -1,142 +1,235 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href = "styling.css" rel = "stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
-        ga('create', 'UA-87283173-1', 'auto');
-        ga('send', 'pageview');
-    
-      </script>
+  <link href="styling.css" rel="stylesheet">
 
-    <script>
-      var shiftWindow = function() { scrollBy(0, -50) };
-      window.addEventListener("hashchange", shiftWindow);
-      function load() { if (window.location.hash) shiftWindow(); }
-    </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    <title>Raami Sharif</title>
-  </head onload=load()>
-  
-  <body>
-      <nav class = "navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    ga('create', 'UA-87283173-1', 'auto');
+    ga('send', 'pageview');
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+  </script>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item"><a href="" anchorLink = "#home" class = "anchorLink nav-link">Home</a></li>
-              <li class="nav-item"><a href="" anchorLink = "#about" class = "anchorLink nav-link">About</a></li>
-              <li class="nav-item"><a href="" anchorLink = "#projects" class = "anchorLink nav-link">Projects</a></li>
-              <li class="nav-item"><a href="" anchorLink = "#resume" class = "anchorLink nav-link">Resume</a></li>
-              <li class="nav-item"><a href="" anchorLink = "#contact" class = "anchorLink nav-link">Contact</a></li>
-            </ul>
+  <script>
+    var shiftWindow = function () { scrollBy(0, -50) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+  </script>
 
-            <span class="text-right my-2 my-lg-0">
-                <a href = "mailto: contact@raamisharif.com"><svg class = "octicon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg></a>
-                <a href = "https://github.com/rshar1"><svg xmlns="http://www.w3.org/2000/svg" class="octicon" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
-                <a href = "https://www.linkedin.com/in/raami-sharif-444a20108"> <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg> </a>      
-            </span>
+  <title>Raami Sharif</title>
+</head onload=load()>
 
+<body>
+
+  <!-- NAV BAR -->
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a href="" anchorLink="#home" class="anchorLink nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="" anchorLink="#about" class="anchorLink nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="" anchorLink="#projects" class="anchorLink nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="" anchorLink="#resume" class="anchorLink nav-link">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a href="" anchorLink="#contact" class="anchorLink nav-link">Contact</a>
+        </li>
+      </ul>
+
+      <span class="text-right my-2 my-lg-0">
+        <a href="mailto: contact@raamisharif.com">
+          <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"
+            />
+          </svg>
+        </a>
+        <a href="https://github.com/rshar1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="octicon" viewBox="0 0 24 24">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/raami-sharif-444a20108">
+          <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"
+            />
+          </svg>
+        </a>
+      </span>
+
+    </div>
+  </nav>
+
+  <!-- HOME SCREEN -->
+
+  <div class="container-fluid sliding-background-Image" id="home">
+    <div class="text-right">
+      <h1 class="mr-2"> Raami Sharif </h1>
+      <h2 class="mr-3"> -Computer Science Student </h2>
+    </div>
+  </div>
+
+  <!-- ABOUT ME -->
+
+  <div class="container-fluid text-center p-md-5 py-2 py-sm-2" id="about">
+    <h1> About me </h1>
+
+    <p class="lead text-justify">
+      My name is Raami Sharif and I'm a Computer Science major at Pace University. I've had a strong interest in technology since
+      elementary school, and always knew I would want to pursue a career in the tech industry. I started programming since
+      my freshman year in high school, and since then, my passion for learning has not diminished whatsoever. In my spare
+      time, I enjoy swimming, and reading about technological advancements. More recently, I have been spending time on
+      <a href="https://codefights.com/">codefights.com</a> solving challenges and interacting with the community.
+    </p>
+
+
+  </div>
+
+  <!-- PROJECTS SECTION -->
+
+  <div class="container-fluid text-center py-5" id="projects">
+
+    <h1 class="mb-3"> Projects </h1>
+
+    <div class="container-fluid row">
+      <div class="col-md-4 col-sm-12">
+
+        <div class="rounded p-4 mb-3" style="background-color:green">
+          <a href="http://rshar1.github.io/Spidertime/">
+            <img class="img-fluid center-block" src="images/spidertime.jpg" />
+            <h2> Spider Time </h2>
+            <p> Play as a spider and survive by eating other insects. Beware of the red insects. Created using the TreSensa Game
+              Engine
+            </p>
+          </a>
         </div>
-      </nav>
-    
-        <div class = "container-fluid sliding-background-Image" id = "home">
-          <div class="text-right">
-            <h1 class = "mr-2"> Raami Sharif </h1>
-            <h2 class = "mr-3"> -Computer Science Student </h2>
-          </div>
-        </div>
-        
-        <div class = "container-fluid text-center p-md-5 py-2 py-sm-2" id = "about">
-          <h1> About me </h1>
-    
-          <p class ="lead text-justify" > 
-            My name is Raami Sharif and I'm a Computer Science major at Pace University. 
-            I've had a strong interest in technology since elementary school, and always knew I would want to pursue a career in the tech industry. 
-            I started programming since my freshman year in high school, and since then, my passion for learning has not diminished whatsoever.
-            In my spare time, I enjoy swimming, and reading about technological advancements. More recently, I have been spending time on <a href = "https://codefights.com/">codefights.com</a> solving challenges and interacting with the community.
-           </p>
-    
-           
-        </div>
-    
-        <div class = "container-fluid text-center py-5" id = "projects">
-    
-          <h1 class = "mb-3"> Projects </h1>
 
-          <div class ="container-fluid row">
-          <div class = "col-md-4 col-sm-12">
-            <div class = "rounded p-4 mb-3" style = "background-color:green">  <a href = "http://rshar1.github.io/Spidertime/"> <img class ="img-fluid center-block" src = "images/spidertime.jpg"/> <h2> Spider Time </h2> <p> Play as a spider and survive by eating other insects. Beware of the red insects. Created using the TreSensa Game Engine</p> </a> </div>
-    
-            <div class = "rounded p-4 mb-3" style = "background-color:rgb(89, 123, 126)">  <a href = "https://github.com/rshar1/codeu_project_2017"> <img class ="img-fluid center-block" src = "images/google.png"/> <h2> Google CodeU Participant </h2> <p> In 2017, I participated in Google CodeU, where I worked with two peers to improve a chat application. Added features included: GUI, real-time messages, sentiment analysis, and persistency.  </p> </a> </div>
-    
-          </div>
-    
-          <div class = "col-md-4 col-sm-12">
-            <div class = "rounded p-4 mb-3" style = "background-color:orange"> <a href = ""> <img class ="img-fluid center-block" src = "images/vtourPic.jpg"/>  <h2> Virtual Tour </h2> <p> Enjoy a virtual tour of the Bayside Historical Society. Created using an HTML canvas, along with JavaScript </p></a> </div>
-    
-          </div>
-    
-          <div class = "col-md-4 col-sm-12">
-            <div class = "rounded p-4 mb-3" style = "background-color: yellow"> <a href = ""> <img class ="img-fluid center-block" src = "images/bobimg.jpg"/> <h2> Businesses of Bayside </h2> <p> An online exhibit of some of the Businesses in Bayside </p></a> </div>
-          </div>
-        </div>
-        </div>
-    
-        <div class = "container-fluid sliding-background-Image" id = "ptor"></div>
-    
-        <div class = "container-fluid text-center py-3" id = "resume">
-          <h1> My Resume </h1>
-          <p class = "lead">  <a href = "myResume/resume.pdf" target="_blank"> Click here </a> to view a pdf of my resume. Additionally, a lot of my projects can also be found on my <a href = "https://github.com/rshar1" target = "_blank"> Github </a>.
-          </p>
-        </div>
-    
-        <div class = "container-fluid py-2" id = "contact">
-    
-            <div class="row justify-content-between">
-                <div class="col-md-4 col-5">
-                    <a href = "mailto: contact@raamisharif.com"><svg class = "octicon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg></a>
-                    <a href = "https://github.com/rshar1"><svg xmlns="http://www.w3.org/2000/svg" class="octicon" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
-                    <a href = "https://www.linkedin.com/in/raami-sharif-444a20108"> <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg> </a>          
-                </div>
-                <div class="col-md-4 col-7 text-right font-italic">
-                  contact@raamisharif.com
-                </div>
-              </div>
-
+        <div class="rounded p-4 mb-3" style="background-color:rgb(89, 123, 126)">
+          <a href="https://github.com/rshar1/codeu_project_2017">
+            <img class="img-fluid center-block" src="images/google.png" />
+            <h2> Google CodeU Participant </h2>
+            <p> In 2017, I participated in Google CodeU, where I worked with two peers to improve a chat application. Added features
+              included: GUI, real-time messages, sentiment analysis, and persistency. </p>
+          </a>
         </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </div>
 
-    <script src= "jquery.anchor.js"></script>
+      <div class="col-md-4 col-sm-12">
+        <div class="rounded p-4 mb-3" style="background-color:orange">
+          <a href="">
+            <img class="img-fluid center-block" src="images/vtourPic.jpg" />
+            <h2> Virtual Tour </h2>
+            <p> Enjoy a virtual tour of the Bayside Historical Society. Created using an HTML canvas, along with JavaScript </p>
+          </a>
+        </div>
 
-    <script type="text/javascript">
-      $(document).ready(function(){
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+        <div class="rounded p-4 mb-3" style="background-color: yellow">
+          <a href="">
+            <img class="img-fluid center-block" src="images/bobimg.jpg" />
+            <h2> Businesses of Bayside </h2>
+            <p> An online exhibit of some of the Businesses in Bayside </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid sliding-background-Image" id="ptor"></div>
+
+  <!-- RESUME SECTION -->
+
+  <div class="container-fluid text-center py-3" id="resume">
+    <h1> My Resume </h1>
+    <p class="lead">
+      <a href="myResume/resume.pdf" target="_blank"> Click here </a> to view a pdf of my resume. Additionally, a lot of my projects can also be found on my
+      <a href="https://github.com/rshar1" target="_blank"> Github </a>.
+    </p>
+  </div>
+
+
+  <!-- FOOTER SECTION (CONTACT) -->
+
+  <div class="container-fluid py-2" id="contact">
+
+    <div class="row justify-content-between">
+      <div class="col-md-4 col-5">
+        <a href="mailto: contact@raamisharif.com">
+          <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"
+            />
+          </svg>
+        </a>
+        <a href="https://github.com/rshar1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="octicon" viewBox="0 0 24 24">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/raami-sharif-444a20108">
+          <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="col-md-4 col-7 text-right font-italic">
+        contact@raamisharif.com
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="jquery.anchor.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#home").height($(window).height() - 50);
+      $(window).resize(function () {
         $("#home").height($(window).height() - 50);
-        $(window).resize(function(){ 
-          $("#home").height($(window).height() - 50);
-        });
-      })
-    </script>
-  </body>
+      });
+    })
+  </script>
+</body>
+
 </html>
