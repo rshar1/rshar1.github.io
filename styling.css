@@ -64,24 +64,25 @@
 }
 
 #contact{
-	background-image: url('images/sunset.jpg');
-	background-size: cover;
-	background-position: 0% 50%;
-	min-height: 51vw;
+	background-color: rgba(45, 83, 105, 0.747); 
 }
 
-#contact a{
-	margin-left: 5%;
-	margin-top: 10%;
+.octicon {
+	color:#222;
+	font-size:128px;
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0,0,0,0.75)));
+	transition:0.5s color ease-in;
+	-webkit-transition:0.5s color ease-in 0;
+	-moz-transition:0.5s color ease-in 0;
+	-o-transition:0.5s color ease-in 0;
+	-transition:0.5s color ease-in 0;
+	cursor:pointer;
 	display: inline-block;
-	vertical-align: top;
-	width: 20%;
+	vertical-align: text-top;
+	fill: currentColor;
+	height: 1em; 
 }
 
-#contact a:nth-child(2){
-	margin-left: 15%;
-}
-
-#contact a:hover{
-	color: #000088;
+.octicon:hover {
+	color:rgb(219, 16, 16)
 }
