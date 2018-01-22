@@ -85,18 +85,32 @@
     </div>
   </nav>
 
-  <!-- HOME SCREEN -->
+  <!-- HOME SCREEN 
+  Credits: Photo by Lukas from Pexels https://www.pexels.com/photo/code-coding-computer-data-574070/
+  -->
 
   <div class="container-fluid sliding-background-Image" id="home">
-    <div class="text-right">
-      <h1 class="mr-2"> Raami Sharif </h1>
-      <h2 class="mr-3"> -Computer Science Student </h2>
+    <div id="home-TopRow" class="row align-items-end text-center">
+      <div class="col">
+        <h1 class="display-1 mr-2"> Raami Sharif </h1>
+        <h2 class="text-muted mr-3"> Computer Science Student </h2>
+      </div>
+    </div>
+
+    <div id="home-bottomRow" class="row align-items-end text-center">
+      <div class="col">
+        <a href="#about" class="anchorLink">
+          <svg xmlns="http://www.w3.org/2000/svg" class="octicon" viewBox="0 0 24 24">
+            <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z" />
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
 
   <!-- ABOUT ME -->
 
-  <div class="container-fluid text-center p-md-5 py-2 py-sm-2" id="about">
+  <div class="container col-md-8 text-center p-md-5 py-2 py-sm-2" id="about">
     <h1> About me </h1>
 
     <p class="lead text-justify">
@@ -222,8 +236,12 @@
   <script type="text/javascript">
     $(document).ready(function () {
       $("#home").height($(window).height() - 50);
+      $("#home-TopRow").height($("#home").height() * 0.50);
+      $("#home-bottomRow").height($("#home").height() * 0.30);
       $(window).resize(function () {
         $("#home").height($(window).height() - 50);
+        $("#home-TopRow").height($("#home").height() * 0.50);
+        $("#home-bottomRow").height($("#home").height() * 0.30);
       });
     })
   </script>
