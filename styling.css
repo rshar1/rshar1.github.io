@@ -5,25 +5,25 @@
 	background-position: center top;
 }
 
+@media screen and (max-device-width: 1024px) {
+	.sliding-background-Image {
+		background-attachment: scroll;
+	}
+}
+
 /*** Home ***/
 
 #home{
-	background-image: url("images/comp.jpg");
+	background-image: url("images/home.jpeg");
 	padding-top: 70px;
 }
 
 #home h1{
-	color: #aaaaaa;
-}
-
-/*** ABOUT ***/
-
-#about{
-	background-color: #f1f1f1;
+	color: #252525;
 }
 
 #projects{
-	background-color: #e4e4e4;
+	background-color: #e6e4e45e;
 }
 
 /* Three Columns */
