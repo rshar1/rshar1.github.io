@@ -1,0 +1,30 @@
+[
+    {
+        "title" : "Google CodeU Participant",
+        "image" : "images/google.png", 
+        "summary" : "In 2017, I participated in Google CodeU, where I worked with two peers to improve a chat application. Added features included: GUI, real-time messages, sentiment analysis, and persistancy.",
+        "description" : "",
+        "link" : "https://github.com/rshar1/codeu_project_2017"
+    }, 
+    {
+        "title" : "Spider Time",
+        "image" : "images/spidertime.jpg", 
+        "summary" : "Play as a spider and survive by eating other insects. Beware of the red insects. Created using the TreSensa Game Engine",
+        "description" : "",
+        "link" : "http://rshar1.github.io/Spidertime/"
+    },
+    {
+        "title" : "Virtual Tour",
+        "image" : "images/vtourPic.jpg", 
+        "summary" : "Enjoy a virtual tour of the Bayside Historical Society. Created using an HTML canvas, along with JavaScript", 
+        "description": "",
+        "link" : ""
+    }, 
+    {
+        "title" : "Businesses of Bayside",
+        "image" : "images/bobimg.jpg", 
+        "summary" : "An online exhibit of some of the businesses in Bayside",
+        "description" : "",
+        "link" : ""
+    }
+]

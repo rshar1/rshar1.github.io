@@ -132,51 +132,12 @@
 
     <h1 class="mb-3"> Projects </h1>
 
-    <div class="container-fluid row">
-      <div class="col-md-4 col-sm-12">
-
-        <div class="rounded p-4 mb-3" style="background-color:green">
-          <a href="" data-toggle="modal" data-target="#spider-time-modal">
-            <img class="img-fluid center-block" src="images/spidertime.jpg" />
-            <h2> Spider Time </h2>
-            <p> Play as a spider and survive by eating other insects. Beware of the red insects. Created using the TreSensa Game
-              Engine
-            </p>
-          </a>
-        </div>
-
-        <div class="rounded p-4 mb-3" style="background-color:rgb(89, 123, 126)">
-          <a href="https://github.com/rshar1/codeu_project_2017">
-            <img class="img-fluid center-block" src="images/google.png" />
-            <h2> Google CodeU Participant </h2>
-            <p> In 2017, I participated in Google CodeU, where I worked with two peers to improve a chat application. Added features
-              included: GUI, real-time messages, sentiment analysis, and persistency. </p>
-          </a>
-        </div>
-
-      </div>
-
-      <div class="col-md-4 col-sm-12">
-        <div class="rounded p-4 mb-3" style="background-color:orange">
-          <a href="" data-toggle="modal" data-target="#virtual-tour-modal">
-            <img class="img-fluid center-block" src="images/vtourPic.jpg" />
-            <h2> Virtual Tour </h2>
-            <p> Enjoy a virtual tour of the Bayside Historical Society. Created using an HTML canvas, along with JavaScript </p>
-          </a>
-        </div>
-
-      </div>
-
-      <div class="col-md-4 col-sm-12">
-        <div class="rounded p-4 mb-3" style="background-color: yellow">
-          <a href="">
-            <img class="img-fluid center-block" src="images/bobimg.jpg" />
-            <h2> Businesses of Bayside </h2>
-            <p> An online exhibit of some of the Businesses in Bayside </p>
-          </a>
-        </div>
-      </div>
+    <div id="projects-grid" class="container-fluid row">
+      <div class="col-md-4 col-sm-12"></div>
+      <div class="col-md-4 col-sm-12"></div>
+      <div class="col-md-4 col-sm-12"></div>
     </div>
+    
   </div>
 
   <div class="container-fluid sliding-background-Image" id="ptor"></div>
@@ -289,7 +250,7 @@
     crossorigin="anonymous"></script>
 
   <script src="jquery.anchor.js"></script>
-
+  <script src = "loadProjects.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
       $("#home").height($(window).height() - 50);
