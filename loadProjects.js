@@ -12,9 +12,14 @@ var loadProjects = function () {
             // Get the minimum column
             var minCol = getMinCol()
             var projectHtml = getProjectHtml(project)
+            var modalHtml = getModalHtml(project)
 
             // Append this Project to that column
             minCol.append(projectHtml)
+
+            // Add the modal
+            $("body").append(modalHtml)
+
         }
 
     });
@@ -24,13 +29,44 @@ var loadProjects = function () {
 var getProjectHtml = function (projectObj) {
 
     var projectTemplate = `<div class='rounded p-4 mb-3' style='background-color: ` + getRandomColor() + `'>
-                                <a href='` + projectObj.link + `' data-toggle='' data-target=''>
+                                <a href='` + projectObj.link + `' data-toggle='modal' data-target='#` + projectObj.id + `'>
                                 <img class='img-fluid center-block' src='` + projectObj.image + `' />
                                 <h2> ` + projectObj.title + ` </h2>
                                 <p> ` + projectObj.summary + ` </p>
                                 </a>
                             </div>`;
     return projectTemplate; 
+}
+
+var getModalHtml = function(projectObj) {
+    var template = `
+    <div class="modal fade" id="` + projectObj.id + `" tabindex="-1" role="dialog" aria-labelledby="` + projectObj.id + `Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="` + projectObj.id + `Label">` + projectObj.title + `</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            ` + (projectObj.description === "" ? projectObj.summary : projectObj.description) + `
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          ` +
+          ( projectObj.link === "" ? "" : '<a type="button" href="' + projectObj.link + '" class="btn btn-primary">View Example</a>')
+          +
+          `
+        </div>
+      </div>
+    </div>
+  </div>
+  `; 
+
+  return template; 
 }
 
 // Returns a string for a random color
