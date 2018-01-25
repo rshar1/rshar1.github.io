@@ -22,13 +22,22 @@ var loadProjects = function () {
 
         }
 
+        sr.reveal(document.querySelectorAll('.project-box'), 
+        {
+            reset: true,
+            viewOffset: { top: 50, right: 0, bottom: 30, left: 0 },
+            duration: 1000,
+            viewFactor: 0.3,
+            distance: 50
+        });
+
     });
 
 }
 
 var getProjectHtml = function (projectObj) {
 
-    var projectTemplate = `<div class='rounded p-4 mb-3' style='background-color: ` + getRandomColor() + `'>
+    var projectTemplate = `<div class='rounded p-4 mb-3 project-box' style='background-color: ` + getRandomColor() + `'>
                                 <a href='` + projectObj.link + `' data-toggle='modal' data-target='#` + projectObj.id + `'>
                                 <img class='img-fluid center-block' src='` + projectObj.image + `' />
                                 <h2> ` + projectObj.title + ` </h2>

@@ -196,15 +196,20 @@
 
   <script src="jquery.anchor.js"></script>
   <script src = "loadProjects.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
       $("#home").height($(window).height() - 50);
       $("#home-TopRow").height($("#home").height() * 0.60);
       $("#home-bottomRow").height($("#home").height() * 0.30);
+      window.sr = ScrollReveal();
       $(window).resize(function () {
         $("#home").height($(window).height() - 50);
         $("#home-TopRow").height($("#home").height() * 0.60);
         $("#home-bottomRow").height($("#home").height() * 0.30);
+      });
+      $(window).scroll(function(){
+        $("#home-bottomRow").css("opacity", 1 - $(window).scrollTop() / ($('#home').height() / 2));
       });
     })
   </script>
