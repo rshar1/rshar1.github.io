@@ -1,5 +1,13 @@
 [
     {
+        "id" : "grow_with_google",
+        "title" : "Grow With Google Challenge", 
+        "image" : "images/growwithgoogle.png",
+        "summary" : "Online program with Udacity and Google, to learn android and develop apps as part of the program",
+        "description" : "In January of 2018, I was invited to complete the Google Grow with Google Android Challenge. The goal of this program is to provide students with access to the first few Courses of the Udacity Android Nanodegree program. As part of this program, I am developing my android skills and learning best practices.",
+        "link" : ""
+    }, 
+    {
         "id" : "code-u", 
         "title" : "Google CodeU Participant",
         "image" : "images/google.png", 
@@ -15,6 +23,22 @@
         "description" : "",
         "link" : "http://rshar1.github.io/Spidertime/"
     },
+    {
+        "id" : "appliedCSWithAndroid", 
+        "title" : "Applied CS With Android",
+        "image" : "images/droid.png",
+        "summary" : "Projects I worked on as part of the Applied CS with Android course. These courses were meant as a way to explore the application of data structures and algorithms, by developing android apps",
+        "description" : "Applied CS with Android is a free online course offered by Google that allows students to see first hand how data structures and algorithms can be applied to real word apps in order to accelerate their processing. I worked on this course as a way to get started with android, such that I can improve upon my knowledge of the important Data Structures and Algorithms",
+        "link" : "https://github.com/rshar1/AppliedCSWithAndroid"
+    }, 
+    {
+        "id" : "online_game_chat_room",
+        "title" : "Online Game and Chat Room",
+        "image" : "",
+        "summary" : "An online Game and Chat room I built using Firebase. This application allows users to chat, as well as invite each other to play tic-tac-toe or battleship online. ",
+        "description" : "This project was something I worked on to learn about Firebase. At first, I started by following the getting started guide for Firebase, which had to do with developing a chat room. I then extended it to allow people to play tic-tac-toe with one another. I did this by allowing users to type in commands that would invite other users to a game. The other user can then accept or deny the invitation. I then added Battleship which was done using a canvas in HTML and tracking mouse clicks. Moves were submitted through firebase, similar to how messages were sent between users. ",
+        "link" : "https://github.com/rshar1/Game-room"
+    }, 
     {
         "id" : "virtual-tour", 
         "title" : "Virtual Tour",
