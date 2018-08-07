@@ -4,7 +4,7 @@
         "title" : "Grow With Google Challenge", 
         "image" : "images/growwithgoogle.png",
         "summary" : "Online program with Udacity and Google, to learn android and develop apps as part of the program",
-        "description" : "In January of 2018, I was invited to complete the Google Grow with Google Android Challenge. The goal of this program is to provide students with access to the first few Courses of the Udacity Android Nanodegree program. As part of this program, I am developing my android skills and learning best practices.",
+        "description" : "In January of 2018, I was invited to complete the Google Grow with Google Android Challenge. The goal of this program is to provide students with access to the first few Courses of the Udacity Android Nanodegree program. After doing well in the initial invitation, I was then invited to continue learning until the end of the program, ending in October of 2018. As part of the nanodegree, I am creating multiple apps, learning in depth about android, and working on a capstone project.",
         "link" : ""
     }, 
     {
@@ -12,7 +12,7 @@
         "title" : "Google CodeU Participant",
         "image" : "images/google.png", 
         "summary" : "In 2017, I participated in Google CodeU, where I worked with two peers to improve a chat application. Added features included: GUI, real-time messages, sentiment analysis, and persistancy.",
-        "description" : "",
+        "description" : "This project which was hosted by Google had me working with two peers and a Google engineer to add features to a very basic chat application. We were essentially given a simple server and client application written in Java and run from the command line. It very simply allowed messages to be sent between users. My group and I, discussed that we would like to make the messages arrive in real time, create a GUI application and add persisitency. We split up the tasks so each of us was in charge of something, with me being in charge of the real time messaging. We posted our code onto github and conducted code reviews of each others code. ",
         "link" : "https://github.com/rshar1/codeu_project_2017"
     }, 
     {
@@ -20,7 +20,7 @@
         "title" : "Spider Time",
         "image" : "images/spidertime.jpg", 
         "summary" : "Play as a spider and survive by eating other insects. Beware of the red insects. Created using the TreSensa Game Engine",
-        "description" : "",
+        "description" : "This was a game that I created with the intention of learning about the TreSensa game engine. It allows the player to move around eating insects",
         "link" : "http://rshar1.github.io/Spidertime/"
     },
     {
@@ -53,6 +53,14 @@
         "image" : "images/bobimg.jpg", 
         "summary" : "An online exhibit of some of the businesses in Bayside",
         "description" : "",
+        "link" : ""
+    },
+    {
+        "id" : "lirr-track-scraper",
+        "title" : "LIRR Track Scraper",
+        "image" : "",
+        "summary" : "A web scraper that I built in python in order to explore web scraping with BeautifulSoup, along with improving my commute",
+        "description" : "Out of an interest in webscraping as well as improving my commute ever so slightly, I created this web scraper to watch and record the tracks for the LIRR. Anyone who has ridden the LIRR knows that the depearture track is announced 10 mins prior to departure. In order to beat the rush when the track is announced, I created this web scraper to watch the tracks for two months, running on my Raspberry Pi at home. With the webscraping I also built a web monitor so I could monitor the application and see the live data being collected, while outside the house. I was then able to analyze the data and find trends in the tracks, so that I could now beat the rush, especially during the rush hour commute. ",
         "link" : ""
     }
 ]
