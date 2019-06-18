@@ -62,5 +62,29 @@
         "summary" : "A web scraper that I built in python in order to explore web scraping with BeautifulSoup, along with improving my commute",
         "description" : "Out of an interest in webscraping as well as improving my commute ever so slightly, I created this web scraper to watch and record the tracks for the LIRR. Anyone who has ridden the LIRR knows that the depearture track is announced 10 mins prior to departure. In order to beat the rush when the track is announced, I created this web scraper to watch the tracks for two months, running on my Raspberry Pi at home. With the webscraping I also built a web monitor so I could monitor the application and see the live data being collected, while outside the house. I was then able to analyze the data and find trends in the tracks, so that I could now beat the rush, especially during the rush hour commute. ",
         "link" : ""
+    },
+    {
+        "id" : "cs488-optack",
+        "title" : "Optimistic Ack Attack",
+        "image" : "",
+        "summary" : "A proof of concept to show an optimistic ack attack on TCP, using mininet and written in C",
+        "description" : "An optimistic ack attack is a denial of service attack that takes advantage of TCP's congestion control mechanism. The basic concept of this attack is for an attacker to send acks before actually receiving the packets. By doing this, the victim will not pick up on lost messages and will continue to increase it's congestion window. This can potentially be exploited to cause a network collapse. The purpose of this project was to use mininet to show that this attack was doable in a relatively simple manner. My partner, Edward Gervis, and I open sourced the code and provided instructions on how to pull off a demo of this attack. We also prepared a presentation explaining the attack as well as our implementation. <iframe src='https://docs.google.com/presentation/d/e/2PACX-1vSAsLxztJdPXZxVdU6OdCCXyyZ-oQJ5863fzozMuvw8VStZ0AKYwoo5WPofqOG0hLaWdE1bJpgESzMn/embed?start=false&loop=false&delayms=3000' frameborder='0' width='480' height='299' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe> ",
+        "link" : "https://github.com/rshar1/CS488/tree/master/Project3"
+    },
+    {
+        "id" : "ez-attend",
+        "title" : "Ez-Attend Android App",
+        "image" : "https://github.com/paceuniversity/cs389s2019team5/raw/snapshot-sprint3/EzAttend/app/src/main/res/drawable-hdpi/logo.png",
+        "summary" : "Term project for Software Engineering at Pace University",
+        "description" : "This was the term project for my software engineering course at Pace University. I worked in a group of three to practice Agile methods while creating an android application. The purpose of our application was to speed up the attendance process and make it more seamless especially for younger students that may not be able to use other technological solutions for attendance. As part of the project we participitated in scrum meetings, filled out a backlog, and conducted code reviews. Documentation can be found in the wiki of the github repo.",
+        "link" : "https://github.com/paceuniversity/cs389s2019team5"
+    },
+    {
+        "id" : "cs488-rudp",
+        "title" : "Reliable UDP",
+        "image" : "",
+        "summary" : "As part of CS 488, at Pace University, we implemented reliablity into UDP such that packets are automatically resent",
+        "description" : "In contrast to TCP, UDP has no reliability. In introduction to networking, the purpose of this project was to add some of the reliability in TCP to UDP. To do that my partner and I implemented our own networking protocol called RUDP that essentially ensures that all UDP packets arrive in the right order at the receiver. We did this in a very modular fashion such that the RUDP protocol can be used in most java applications that currently uses TCP sockets. That is, we created our own socket class called RUDPSocket that for the most part has the same interface as regular sockets in Java. I demonstrate this by also creating a very simple file transfer application with a central server and multiple clients transferring files.",
+        "link" : "https://github.com/rshar1/CS488/tree/master/Project1"
     }
 ]
